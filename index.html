@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="quiz-container" id="quiz">
+        <div class="quiz-header">
+            <span class="material-symbols-outlined">chevron_left</span>
+            <span class="question-label">Question 1</span>
+            <span class="material-symbols-outlined">more_vert</span>
+        </div>
+        <div id="timer">
+            <div id="progress-bar"></div>
+        </div>
+        <div class="question-container">
+            <div class="question-icon">
+                <span id="question-icon" class="material-symbols-outlined">
+                </span>
+            </div>
+            <span class="whatIs-label"> What is this thing?</span>
+        </div>
+        <div id="answers-container" class="answers-container">
+        </div>
+        <div class="mobileButton"></div>
+    </div>
+    <div id="result-container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
